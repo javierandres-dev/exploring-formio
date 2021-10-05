@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <script src='https://cdn.form.io/formiojs/formio.full.min.js'></script>
+    <script type='text/javascript'>
+      var formio = new Formio('https://examples.form.io/example');
+      formio.loadForm().then(function(form) {
+
+        // Log the form schema.
+        console.log(form);
+
+        formio.saveSubmission({data: {
+          firstName: 'Joe',
+          lastName: 'Smith',
+          email: 'joe@example.com'
+        }}).then(function(submission) {
+
+          // Log the full submission object.
+          console.log("cdn submission: ", submission);
+        });
+      });
+    </script>
+  </head>
+</html>
