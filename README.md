@@ -1,6 +1,5 @@
 # formio
-Exploring formio, a project by Form.io
-## Form.io :copyright:
+Exploring formio, a project by Form.io :copyright:
 ### Resources
 * [Form.io](https://www.form.io/)
 * [GitHub Form.io](https://github.com/formio)
