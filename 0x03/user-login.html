@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="http://localhost:4000/formio.full.min.css" />
+    <script src="http://localhost:4000/formio.full.min.js"></script>
+  </head>
+  <body>
+    <h1 class="text-center">formiojs</h1>
+    <h2 class="text-center">Forms</h2>
+    <h3>User login</h3>
+    <div id="userLogin"></div>
+    <script type="text/javascript">
+      window.onload = function () {
+        Formio.createForm(
+          document.getElementById("userLogin"),
+          "https://gznbxgfeislryaf.form.io/user/login"
+        );
+      };
+    </script>
+  </body>
+</html>

@@ -1,10 +1,14 @@
-import Formio1 from "./Formio1";
+import CustomersEmbed from "./CustomersEmbeb";
+import CustomersExercise from "./CustomersExercise";
+import FormioExample from "./FormioExample";
 
 function App() {
   return (
     <>
       <h1>React App</h1>
-      <Formio1 />
+      <FormioExample />
+      <CustomersExercise />
+      <CustomersEmbed />
     </>
   );
 }
