@@ -7,6 +7,7 @@ Exploring formio, a project by Form.io :copyright:
 * :open_file_folder: 0x00
 * :open_file_folder: 0x01
 * :open_file_folder: 0x02
+* :open_file_folder: 0x03
 
 ## Software Developer
 [Javier Andrés Garzón Patarroyo](https://www.javierandresgp.com)
