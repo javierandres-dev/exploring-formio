@@ -8,15 +8,17 @@
     <script src="http://localhost:4000/formio.full.min.js"></script>
   </head>
   <body>
-    <h1 class="text-center">formiojs</h1>
-    <h2 class="text-center">Forms</h2>
-    <h3>Customers</h3>
-    <div id="customersForm"></div>
+    <div class="container">
+      <h1 class="text-center">formiojs</h1>
+      <h2 class="text-center">Resource</h2>
+      <h3>Customer</h3>
+      <div id="customer"></div>
+    </div>
     <script type="text/javascript">
       window.onload = function () {
         Formio.createForm(
-          document.getElementById("customersForm"),
-          "https://gznbxgfeislryaf.form.io/customersform"
+          document.getElementById("customer"),
+          "https://gznbxgfeislryaf.form.io/customer"
         );
       };
     </script>
