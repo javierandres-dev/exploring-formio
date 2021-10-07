@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="http://localhost:4000/formio.full.min.css" />
+    <script src="http://localhost:4000/formio.full.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center">formiojs</h1>
+      <h2 class="text-center">Form</h2>
+      <h3>Test All</h3>
+      <div id="test-all"></div>
+    </div>
+    <script type="text/javascript">
+      window.onload = function () {
+        Formio.createForm(
+          document.getElementById("test-all"),
+          "https://gznbxgfeislryaf.form.io/test/all"
+        );
+      };
+    </script>
+  </body>
+</html>
