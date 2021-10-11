@@ -7,6 +7,7 @@ Exploring formio, a project by Form.io :copyright:
 * [formiojs - Wiki](https://github.com/formio/formio.js/wiki)
 * [Form.io API](https://apidocs.form.io/)
 * [Help Form.io](https://help.form.io/)
+* [Form IO Open Source](https://www.form.io/opensource)
 ## Directories
 * :open_file_folder: 0x00
 * :open_file_folder: 0x01
